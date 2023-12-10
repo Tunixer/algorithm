@@ -1,4 +1,4 @@
-mod Rook;
+mod StORageRoom;
 fn main() {
-    Rook::Rook::main_rs();
+    StORageRoom::StORageRoom::main_rs();
 }
