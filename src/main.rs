@@ -1,4 +1,5 @@
-mod StORageRoom;
+mod RegexMatch_10;
+
 fn main() {
-    StORageRoom::StORageRoom::main_rs();
+    RegexMatch_10::RegexMatch::main_rs();
 }
