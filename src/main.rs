@@ -1,5 +1,5 @@
-mod RegexMatch_10;
+mod MinMoveToQueen_3001;
 
 fn main() {
-    RegexMatch_10::RegexMatch::main_rs();
+    MinMoveToQueen_3001::MinMoveToQueen::main_rs();
 }
