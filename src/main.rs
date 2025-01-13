@@ -1,6 +1,5 @@
-mod MinMoveToQueen_3001;
-mod VoltageKeepsake;
+mod SortAnArray_912;
 
 fn main() {
-    MinMoveToQueen_3001::MinMoveToQueen::main_rs();
+    SortAnArray_912::SortAnArray::main_rs();
 }
