@@ -1,5 +1,5 @@
-mod SortAnArray_912;
+mod MiddleLinkedList_876;
 
 fn main() {
-    SortAnArray_912::SortAnArray::main_rs();
+    MiddleLinkedList_876::MiddleLinkedList::main_rs();
 }
