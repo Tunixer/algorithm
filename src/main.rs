@@ -1,4 +1,4 @@
-mod LongestCommonPrefix_14;
+mod ThreeSumClosest_16;
 fn main() {
-    LongestCommonPrefix_14::LongestCommonPrefix::main_rs();
+    ThreeSumClosest_16::ThreeSumClosest::main_rs();
 }
