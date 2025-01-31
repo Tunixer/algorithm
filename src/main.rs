@@ -1,4 +1,4 @@
-mod ThreeSumClosest_16;
+mod FourSum_18;
 fn main() {
-    ThreeSumClosest_16::ThreeSumClosest::main_rs();
+    FourSum_18::FourSum::main_rs();
 }
