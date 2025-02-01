@@ -1,5 +1,5 @@
 mod base;
-mod MiddleLinkedList_876;
+mod MergeTwoLists_21;
 fn main() {
-    MiddleLinkedList_876::MiddleLinkedList::main_rs();
+    MergeTwoLists_21::MergeTwoLists::main_rs();
 }
