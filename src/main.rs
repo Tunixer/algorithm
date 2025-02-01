@@ -1,4 +1,5 @@
-mod FourSum_18;
+mod base;
+mod MiddleLinkedList_876;
 fn main() {
-    FourSum_18::FourSum::main_rs();
+    MiddleLinkedList_876::MiddleLinkedList::main_rs();
 }
