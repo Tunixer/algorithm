@@ -1,5 +1,5 @@
 mod base;
-mod MergeTwoLists_21;
+mod LetterCombinationOfPhoneNumber_17;
 fn main() {
-    MergeTwoLists_21::MergeTwoLists::main_rs();
+    LetterCombinationOfPhoneNumber_17::letter_combinations::main_rs();
 }
