@@ -1,5 +1,5 @@
 mod base;
-mod LetterCombinationOfPhoneNumber_17;
+mod GenerateParentheses_22;
 fn main() {
-    LetterCombinationOfPhoneNumber_17::letter_combinations::main_rs();
+    GenerateParentheses_22::GenerateParentheses::main_rs();
 }
