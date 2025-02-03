@@ -1,5 +1,6 @@
 mod base;
 mod CodeForce;
+mod Leetcode;
 fn main() {
-    CodeForce::CountingIsNotFunEasy_2063F1::CountingIsNotFunEasy::main();
+    Leetcode::Medium::UniqueBinarySearchTrees_96::UniqueBinarySearchTree::main();
 }
