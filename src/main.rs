@@ -1,5 +1,5 @@
 mod base;
-mod GenerateParentheses_22;
+mod CodeForce;
 fn main() {
-    GenerateParentheses_22::GenerateParentheses::main_rs();
+    CodeForce::CountingIsNotFunEasy_2063F1::CountingIsNotFunEasy::main();
 }
