@@ -2,5 +2,5 @@ mod base;
 mod CodeForce;
 mod Leetcode;
 fn main() {
-    Leetcode::Medium::UniqueBinarySearchTrees_96::UniqueBinarySearchTree::main();
+    Leetcode::Hard::MergeKSortedLists_23::MergeKSortedLists::main();
 }
