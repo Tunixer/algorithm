@@ -2,5 +2,5 @@ mod base;
 mod CodeForce;
 mod Leetcode;
 fn main() {
-    Leetcode::Medium::SwapNodesInPairs_24::SwapNodesInPairs::main();
+    Leetcode::Easy::ReverseLinkedList_206::ReverseLinkedList::main();
 }
