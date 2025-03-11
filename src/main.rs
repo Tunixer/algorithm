@@ -1,6 +1,6 @@
 mod base;
 mod CodeForce;
-mod Leetcode;
+mod LeetCode;
 fn main() {
-    Leetcode::Medium::CombinationSum_39::CombinationSum::main_rs();
+    LeetCode::Medium::CombinationSum_39::CombinationSum::main_rs();
 }
