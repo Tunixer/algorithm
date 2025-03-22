@@ -5,3 +5,5 @@ build/
 
 # ignore C++ 20 modules file
 **/*.pcm
+
+.vscode/
