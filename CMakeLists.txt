@@ -7,7 +7,7 @@ project(AlgorithmProject CXX)
 # with extensions right now and it is not required for any other compiler
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 23)
 add_library(algorithm_cxx_modules)
 
 # target_sources()用来为目标（库或可执行文件）添加源文件。
