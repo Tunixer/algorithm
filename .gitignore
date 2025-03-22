@@ -1,3 +1,7 @@
 target/
 Cargo.lock
 main.exe
+build/
+
+# ignore C++ 20 modules file
+**/*.pcm
