@@ -2,15 +2,13 @@
 LeetCode 26
 https://leetcode.cn/problems/remove-duplicates-from-sorted-array/description/
 */
-struct Solution{
-
-}
+struct Solution {}
 impl Solution {
     pub fn remove_duplicates(nums: &mut Vec<i32>) -> i32 {
         let mut unique_nums = 1;
         let mut last_num = nums[0];
-        for i in 1..nums.len(){
-            if nums[i] != last_num{
+        for i in 1..nums.len() {
+            if nums[i] != last_num {
                 last_num = nums[i];
                 nums[unique_nums] = nums[i];
                 unique_nums += 1;

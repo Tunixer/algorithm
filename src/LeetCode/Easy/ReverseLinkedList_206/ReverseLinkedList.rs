@@ -7,8 +7,7 @@ impl Solution {
     pub fn reverse_list(mut head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         let mut dummy_head = Box::new(ListNode::new(0));
         let mut current = &mut dummy_head;
-        while let Some(mut head_node) = head
-        {
+        while let Some(mut head_node) = head {
             let next_node = head_node.next.take();
             head_node.next = current.next.take();
             current.next = Some(head_node);
