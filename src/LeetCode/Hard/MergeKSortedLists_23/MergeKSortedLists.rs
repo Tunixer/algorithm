@@ -37,19 +37,20 @@ impl Solution {
 impl Ord for ListNode {
     fn cmp(&self, other: &Self) -> Ordering {
         return self.val.cmp(&other.val);
-    } 
+    }
 }
-impl PartialOrd for ListNode  {
+impl PartialOrd for ListNode {
     fn partial_cmp(&self, other: &Self) -> Option<Ordering> {
         Some(self.cmp(other))
     }
 }
 
-
-pub fn main()
-{
+pub fn main() {
     let arr_list_1 = ListNode::from_vec(vec![1, 2, 3, 6, 8]);
     let arr_list_2 = ListNode::from_vec(vec![3, 5, 7, 9, 11]);
     let arr_list_3 = ListNode::from_vec(vec![6, 8, 10, 11, 13]);
-    println!("{:?}", Solution::merge_k_lists(vec![arr_list_1, arr_list_2, arr_list_3]));
+    println!(
+        "{:?}",
+        Solution::merge_k_lists(vec![arr_list_1, arr_list_2, arr_list_3])
+    );
 }
